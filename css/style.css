@@ -1,0 +1,189 @@
+/*custom CSS for Florida city website*/
+/* body style*/
+.card-img-top{height:200px;}
+.card-title{
+font-weight:48px;}
+.mb-5{background-color:transparent;}
+
+body{
+	
+	background-image:url("../images/FloridaBackground.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	/* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+/* ==================================================================== */
+/* index style */
+/* Classes*/ 
+/* we used bootstrap classes */
+
+/* Elements */
+
+iframe{
+	border:0px;
+}
+p{
+	text-align:justify;
+	
+}
+img.d-block{
+	height:200px;
+}
+
+h2{
+	font-family: 'Shojumaru', cursive;
+	color:#fff;
+}
+h5{
+	font-size:20px;
+	color:#fff;
+}
+/* IDs */
+
+#top{
+	margin-top:250px;
+	
+}
+
+
+
+#icons{
+		font-size:10px;
+	}
+}
+#icons a{
+	text-decoration:none;
+}
+#sticky-footer {
+  flex-shrink: none;
+  color:white;
+}
+/* ==================================================================== */
+/*  plan style  */
+
+/* classes */
+.container-fluid,.border,#back{background-color:purple;margin:15px; padding:5px;}
+
+
+.beachHeader, .restaurantHeader,.bestShoppingNames {text-align:center;}
+.navBar {text-align:left;margin-left:75px;}
+
+.shopLocImages{margin:10px;}
+.bestShoppingNames{text-align:center;}
+.mall1Header {margin-left:0px;}
+.mall2Header,.mall3Header{margin-left:0px;}
+.beachesMobile,.restaurantsMobile{padding:5px; margin:5px;}
+.shopLocImagesMobile {margin-left:15px;}
+
+
+#back, h6 {text-align:center;
+}
+#restaurantHeader{text-align:center;
+}   
+
+
+
+/* ==================================================================== */
+
+/* stay style */
+
+#hotelHeader{margin-left:200px;}
+#head{margin-bottom:300px;}
+
+/* media for all pages */
+/* ==================================================================== */
+/* index */
+
+@media(min-width:760px){
+	#icons{
+		font-size:25px;
+	}
+}
+@media(max-width:360px){
+	h5{
+	font-size:12px;
+	}
+}
+@media(max-width:1400px){
+	div.hidden{
+	display:none;
+	}
+	iframe.video.center{
+		width:100%;
+		height:60%;
+		
+	}
+	div.center{
+		margin: auto;
+		max-width:1500px;
+		padding: 10px;
+	}
+}
+
+/* ==================================================================== */
+/* plan */
+@media(max-width: 768px) {
+  #beachRow {
+    display:none;
+  }
+  #restaurantRow {
+    display:none;
+  }
+@media(max-width:1024px){
+	body{margin-left:-120px;}
+	.container-fluid{margin-left:-120px;}
+	.shopLocImages{margin-left:30px;}
+	
+}
+
+@media(max-width:768px){
+	#mall2Header{margin-left:-20px;}
+	#mall3Header{margin-left:-20px;}
+	#bestShoppingHeader{margin-left:50px;}
+	#restaurantHeader{margin-left:200px;}
+	#beachHeader{margin-left:200px;}
+	body{margin-left:-50px;padding:30px;}
+	.container-fluid{margin-left:-100px;}
+	.beachesMobile{margin-left:-20px;padding:10px;width:600px;}
+	.restaurantsMobile{margin-left:-20px;padding:10px;width:600px;}
+}
+
+@media(max-width:767px){
+	#restaurantHeader{margin-left:0px;}
+	#beachHeader{margin-left:0px;}
+	
+}
+
+
+@media(max-width:415px){
+	#beachHeader{margin-left:0px;}
+	#restaurantHeader{margin-left:0px;}
+	#bestShoppingHeader{margin-left:0px;}
+	.beachesMobile{width:350px;}
+	.restaurantsMobile{width:350px;}
+	body{margin-left:0px;padding:30px;}
+	.shopLocImages{margin-left:20px;}
+}
+/* ==================================================================== */
+/* stay */
+@media(max-width:768px){
+	#hotelHeader{margin-left:90px;}
+	
+}
+
+@media(max-width:1024px){
+	#hotelHeader{margin-left:200px;}
+}
+
+@media(max-width:414px){
+	#hotelHeader{margin-left:50px;}
+}
+
+h1,h2,h3,h4,h5,h6{color:#fff;}
+
+
+
